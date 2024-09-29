@@ -1,5 +1,4 @@
 package com.javaProjects.taskMaster;
-
 import com.javaProjects.taskMaster.model.Users;
 import com.javaProjects.taskMaster.repository.UserRepo;
 import org.junit.jupiter.api.Assertions;
