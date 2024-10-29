@@ -21,10 +21,18 @@ public class UserController {
     // This endpoint is not secured
     @GetMapping("/home")
     public ResponseEntity<String> accessHome(){
+        System.out.println("hello");
         return new ResponseEntity<>("Welcome to Home Page", HttpStatus.OK);
     }
 
     // It will display data of all the Users
+
+//    Please access these endpoints by entering
+//            Username: Test_User6
+//            Password: tst@123
+//    or else YOU CAN CREATE A NEW USER
+
+
     @GetMapping("/users/displayAllUsers")
     public ResponseEntity<List<Users>> getAllUsers(Authentication authentication){
         if(authentication.isAuthenticated())
