@@ -16,9 +16,6 @@ public class UserPrincipal implements UserDetails {
 
      public Users user;
 
-//    public UserPrincipal(Users user) {
-//    }
-
     public UserPrincipal(Users user) {
         this.user = user;
     }
@@ -63,6 +60,3 @@ public class UserPrincipal implements UserDetails {
         return true;
     }
 }
-
-
-
