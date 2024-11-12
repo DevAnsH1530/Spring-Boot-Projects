@@ -9,3 +9,7 @@ mvn clean package
 After that you can run the jar file into your local machine using
 
 java -jar jar_file_name.jar
+
+
+
+This API is following REST API Standards
